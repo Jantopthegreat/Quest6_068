@@ -1,4 +1,4 @@
-package com.example.pertemuan8.ui.screen
+package com.example.pertemuan8.ui.view.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -26,8 +26,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.unit.dp
-import com.example.pertemuan8.model.Mahasiswa
-import com.example.pertemuan8.model.RencanaStudi
+import com.example.pertemuan8.ui.model.Mahasiswa
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color

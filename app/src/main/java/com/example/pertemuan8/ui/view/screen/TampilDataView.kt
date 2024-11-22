@@ -1,4 +1,4 @@
-package com.example.pertemuan8.ui.screen
+package com.example.pertemuan8.ui.view.screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -13,8 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.pertemuan8.model.Mahasiswa
-import com.example.pertemuan8.model.RencanaStudi
+import com.example.pertemuan8.ui.model.Mahasiswa
+import com.example.pertemuan8.ui.model.RencanaStudi
 
 @Composable
 fun TampilDataView(

@@ -1,4 +1,4 @@
-package com.example.pertemuan8.ui.screen
+package com.example.pertemuan8.ui.view.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

@@ -1,6 +1,5 @@
-package com.example.pertemuan8.ui.screen
+package com.example.pertemuan8.ui.view.screen
 
-import android.widget.Space
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

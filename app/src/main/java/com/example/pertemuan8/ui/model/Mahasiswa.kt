@@ -1,4 +1,4 @@
-package com.example.pertemuan8.model
+package com.example.pertemuan8.ui.model
 
 data class Mahasiswa(
     val nim: String = "",
