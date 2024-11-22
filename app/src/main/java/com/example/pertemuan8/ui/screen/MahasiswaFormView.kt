@@ -85,13 +85,11 @@ fun MahasiswaFormView(
                     fontSize = 15.sp,
                     fontWeight = FontWeight.Bold
                 )
-
                 Text(
                     text = "Unggul dan Islami",
                     color = Color.Red,
-                    FontWeight = FontWeight.Light
+                    fontWeight = FontWeight.Light
                 )
-
             }
         }
         Spacer(modifier = Modifier.padding(top = 16.dp))
@@ -191,7 +189,7 @@ fun MahasiswaFormView(
                         Text("Kembali")
                     }
                     Button(onClick = {
-                        onSubmitButtonClicked()
+                        onSubmitButtonClicked(listData)
                     }
                     )
                     {
