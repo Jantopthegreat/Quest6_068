@@ -14,6 +14,10 @@ fun RencanaStudyView(
     onSubmitButtonClicked: (MutableList<String>) -> Unit,
     onBackButtonClicked: () -> Unit
 ) {
-    var chosenDrodown by remember { mutableStateOf("") }
+    var chosenDropdown by remember { mutableStateOf("") }
     var checked by remember { mutableStateOf(false) }
-    var pilihanKelas by remember { mutableStateOf("") } }
+    var pilihanKelas by remember { mutableStateOf("") }
+
+    var listData: MutableList<String> = mutableListOf(chosenDropdown, pilihanKelas)
+}
+
