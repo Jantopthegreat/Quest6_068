@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
@@ -22,7 +23,9 @@ import com.example.pertemuan8.R
 
 @Preview(showBackground = true)
 @Composable
-fun splashView(){
+fun splashView(
+    onMulaiButton: ()->Unit,
+){
     Column (modifier = Modifier.fillMaxSize().background(color = colorResource(R.color.primary)),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center)
@@ -33,7 +36,8 @@ fun splashView(){
     )
         Spacer(modifier = Modifier.padding(16.dp))
         Button(
-            onClick = {}
+            onClick = { onMulaiButton() }, modifier = Modifier
+                .fillMaxWidth().padding(35.dp)
         )
         {
             Text("Mulai")
