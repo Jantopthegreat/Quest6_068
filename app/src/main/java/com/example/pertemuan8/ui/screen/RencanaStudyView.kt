@@ -3,6 +3,7 @@ package com.example.pertemuan8.ui.screen
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -53,6 +54,16 @@ fun RencanaStudyView(
                     .clip(shape = CircleShape)
                     .size(50.dp)
             )
+            Spacer(
+                modifier = Modifier
+                    .padding(start = 16.dp)
+            )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+            ){
+
+            }
         }
     }
 }
