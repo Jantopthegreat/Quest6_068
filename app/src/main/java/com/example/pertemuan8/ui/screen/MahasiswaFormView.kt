@@ -198,6 +198,5 @@ fun MahasiswaFormView(
                 }
             }
         }
-
     }
 }
